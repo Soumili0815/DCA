@@ -26,7 +26,7 @@ The implementation here mainly follows the method presented in reference 1. I al
 3. Dunn, Stanley D., Lindi M. Wahl, and Gregory B. Gloor. "Mutual information without the influence of phylogeny or entropy dramatically improves residue contact prediction." Bioinformatics 24.3 (2007): 333-340.
 
 # Example
-In this example, we first download a MSA from Pfam and use the MSA to train a Potts model. You can also use other method to make a MSA. Based on the trained Potts model, we calculate interaction scores between pairs of positions using average-product correction (AFC) method. At the end, we compare the pairs of postions with high interaction scores with native contact map obtained from a PDB structure.
+In this example, we first download a MSA from Pfam and use the MSA to train a Potts model. You can also use other method to make a MSA. Based on the trained Potts model, we calculate interaction scores between pairs of positions using average-product correction (APC) method. At the end, we compare the pairs of postions with high interaction scores with native contact map obtained from a PDB structure.
 
 1. **Download a MSA from Pfam.**
 
